@@ -236,6 +236,52 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+  background-color: #000; /* Change navbar color on scroll */
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    margin-right: 10px;
+  }
+
+  .navbar-text {
+    margin-top: 10px;
+  }
+
+  .vvd {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .navbar-brand img {
+    height: 35px;
+  }
+
+  .vvd {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .social-icon img {
+    width: 20px;
+  }
+}
 
 /************ Banner Css ************/
 .banner {
@@ -623,3 +669,140 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/*Web Scroll Bar CSS*/
+
+::-webkit-scrollbar {
+  width: 12px
+}
+
+::-webkit-scrollbar-track {
+  background: #000
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#9044d7,#a416f6 ,#69009d);
+  border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#690097,#a416f6 ,#3f006f);
+  border-radius: 10px
+}
+
+/* styles.css */
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+/* styles.css */
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-box {
+  background-color: #171717;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: calc(25% - 20px); /* Four items per row on large screens */
+  box-sizing: border-box;
+}
+
+
+/* Skill Box CSS */
+
+.skill-image {
+  width: 74px; /* Increase the width of the SVG image */
+  height: 74px; /* Increase the height of the SVG image */
+}
+
+/* Other styles */
+.skill-details {
+  flex: 1;
+}
+
+.skill-details h5 {
+  margin: 0;
+  font-size: 18px;
+  color: #d1d1d1;
+}
+
+.skill-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Background image */
+.background-image-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .skill-box {
+    width: calc(33.33% - 20px); /* Three items per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-box {
+    width: calc(50% - 20px); /* Two items per row on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-box {
+    width: 100%; /* One item per row on mobile devices */
+  }
+}
+/* Additional styles for categories */
+.skill-category {
+  margin-bottom: 40px;
+}
+
+.skill-category h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ededed;
+  font-family: cursive;
+}
+@media (max-width: 768px) {
+  .skill-box {
+    width: calc(50% - 20px); /* Two items per row on tablets */
+  }
+}
+
+@media (max-width: 665px) {
+  .skill-box {
+    width: calc(100% - 20px); /* One item per row on small screens */
+  }
+}
+
+@media (max-width: 950px) {
+  .skill-category {
+    margin-bottom: 20px; /* Reduce margin for smaller screens */
+  }
+
+  .skill-details h5 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .skill-details p {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}
+
