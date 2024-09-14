@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cyber-Lunerr-Portfolio/static/css/main.e23b4960.css",
-    "main.js": "/Cyber-Lunerr-Portfolio/static/js/main.63d6e9cb.js",
+    "main.js": "/Cyber-Lunerr-Portfolio/static/js/main.8570e994.js",
     "static/js/787.fb771931.chunk.js": "/Cyber-Lunerr-Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/Cyber-Lunerr-Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Cyber-Lunerr-Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -27,11 +27,11 @@
     "index.html": "/Cyber-Lunerr-Portfolio/index.html",
     "static/media/nav-icon2.svg": "/Cyber-Lunerr-Portfolio/static/media/nav-icon2.1d02fdd08a7c838eefee6eee65871c97.svg",
     "main.e23b4960.css.map": "/Cyber-Lunerr-Portfolio/static/css/main.e23b4960.css.map",
-    "main.63d6e9cb.js.map": "/Cyber-Lunerr-Portfolio/static/js/main.63d6e9cb.js.map",
+    "main.8570e994.js.map": "/Cyber-Lunerr-Portfolio/static/js/main.8570e994.js.map",
     "787.fb771931.chunk.js.map": "/Cyber-Lunerr-Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e23b4960.css",
-    "static/js/main.63d6e9cb.js"
+    "static/js/main.8570e994.js"
   ]
 }
