@@ -781,7 +781,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 24px;
   margin-bottom: 20px;
   color: #ededed;
-  font-family: cursive;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 @media (max-width: 768px) {
   .skill-box {
