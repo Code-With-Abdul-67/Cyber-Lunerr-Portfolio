@@ -18,7 +18,7 @@
 	font-weight: 400;
 }
 
-/************ Default Css ************/
+/************ Default CSS ************/
 
 * {
   margin: 0;
@@ -86,7 +86,7 @@ p.danger {
 	color: red;
 }
 
-/************ Navbar Css ************/
+/************ Navbar CSS ************/
 
 nav.navbar {
   padding: 18px 0;
@@ -314,7 +314,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/************ Banner Css ************/
+/************ Banner CSS ************/
 
 .banner {
   margin-top: 0;
@@ -394,7 +394,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-/************ Skills Css ************/
+/************ Skills CSS************/
 
 .skill {
   padding: 0 0 50px 0;
@@ -441,7 +441,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Projects CSS ************/
 
 .project {
   padding: 80px 0;
@@ -587,7 +587,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact CSS ************/
 
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -673,7 +673,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
-/************ Footer Css ************/
+/************ Footer CSS ************/
 
 .footer {
   padding: 0 0 50px 0;
@@ -762,7 +762,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-/*Web Scroll Bar CSS*/
+/* Web Scroll Bar CSS */
 
 ::-webkit-scrollbar {
   width: 12px
@@ -782,7 +782,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 10px
 }
 
-/* styles.css */
+/* styles.CSS */
 .skill-container {
   display: flex;
   flex-wrap: wrap;
@@ -869,6 +869,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #ededed;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/* Media Queries for the Skills Box */
 
 @media (max-width: 768px) {
   .skill-box {
