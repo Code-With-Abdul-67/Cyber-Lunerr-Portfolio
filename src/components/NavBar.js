@@ -34,7 +34,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""} sticky="top">
         <Container>
-          <Navbar.Brand>
+          <Navbar.Brand href="https://Code-With-Abdul-67.github.io/Cyber-Lunerr-Portfolio">
             <img src={logo} alt="Logo" className="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -49,9 +49,9 @@ export const NavBar = () => {
 
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.reddit.com/user/One-Alternative-7613/" target="_blank"><img src={navIcon1} alt="" /></a>
-                <a href="mailto:codewithabdul67@gmail.com" target="_blank"><img src={navIcon2} alt="" /></a>
-                <a href="https://github.com/Code-With-Abdul-67" target="_blank"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.reddit.com/user/One-Alternative-7613/" target="_blank"><img src={navIcon1} alt="reddit-link" /></a>
+                <a href="mailto:codewithabdul67@gmail.com" target="_blank"><img src={navIcon2} alt="mail-link" /></a>
+                <a href="https://github.com/Code-With-Abdul-67" target="_blank"><img src={navIcon3} alt="github-link"/></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let's Connect</span></button>
