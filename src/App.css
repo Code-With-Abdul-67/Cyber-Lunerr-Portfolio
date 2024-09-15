@@ -243,7 +243,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .navbar.scrolled {
   background-color: #000; /* Change navbar color on scroll */
 }
-/* Responsive adjustments */
+
+
+/* Responsive adjustments for NavBar*/
 @media (max-width: 768px) {
   .navbar-brand img {
     height: 40px;
@@ -778,7 +780,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 24px;
   margin-bottom: 20px;
   color: #ededed;
-  font-family: cursive;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 @media (max-width: 768px) {
   .skill-box {
