@@ -1,13 +1,17 @@
 {
+  "homepage": "https://Code-With-Abdul-67.github.io/Cyber-Lunerr-Portfolio",
   "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
-    "bootstrap": "^5.1.3",
+    "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
     "emailjs-com": "^3.2.0",
     "express": "^4.18.1",
@@ -20,17 +24,23 @@
     "react-multi-carousel": "^2.8.1",
     "react-on-screen": "^2.1.1",
     "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "^6.26.2",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
+<<<<<<< HEAD
     "eject": "react-scripts eject",
     "predeploy": "npm run build"
+=======
+    "eject": "react-scripts eject"
+>>>>>>> b5555f3b6bca4e10fb8bd3f523e1b4790df7e381
   },
   "eslintConfig": {
     "extends": [
@@ -49,9 +59,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "homepage": "https://Code-With-Abdul-67.github.io/test/",
   "devDependencies": {
     "gh-pages": "^6.1.1"
+=======
+>>>>>>> b5555f3b6bca4e10fb8bd3f523e1b4790df7e381
   }
 }

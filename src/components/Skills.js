@@ -7,6 +7,7 @@ import meter3 from "../assets/img/meter3.svg";
 import meter4 from "../assets/img/meter4.svg"
 import meter5 from "../assets/img/meter5.svg"
 import meter6 from "../assets/img/meter6.svg"
+import meter7 from "../assets/img/meter7.svg"
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -16,20 +17,20 @@ export const Skills = () => {
     
     { name: "HTML 5", percentage: 95, image: meter1, category: "Web Development" },
     { name: "CSS 3", percentage: 85, image: meter5, category: "Web Development" },
-    { name: "Bootstrap 5", percentage: 80, image: meter4, category: "Web Development" },
-    { name: "React JS", percentage: 85, image: meter5, category: "Web Development" },
-    { name: "Proxy Chains", percentage: 70, image: meter3, category: "Cybersecurity" },
-    { name: "Penetration Testing", percentage: 75, image: meter3, category: "Cybersecurity" },
-    { name: "OSINT", percentage: 70, image: meter2, category: "Cybersecurity" },
-    { name: "Nmap", percentage: 70, image: meter4, category: "Cybersecurity" },
+    { name: "Bootstrap 5", percentage: 80, image: meter5, category: "Web Development" },
+    { name: "React JS", percentage: 85, image: meter4, category: "Web Development" },
 
     //Cybersecurity
 
-    { name: "Airgeddon", percentage: 75, image: meter3, category: "Cybersecurity" },
-    { name: "Wifite", percentage: 75, image: meter2, category: "Cybersecurity" },
+    { name: "Proxy Chains", percentage: 75, image: meter3, category: "Cybersecurity" },
+    { name: "Penetration Testing", percentage: 70, image: meter7, category: "Cybersecurity" },
+    { name: "OSINT", percentage: 80, image: meter2, category: "Cybersecurity" },
+    { name: "Nmap", percentage: 70, image: meter7, category: "Cybersecurity" },
     { name: "MetaSploit", percentage: 67, image: meter6, category: "Cybersecurity" },
-    { name: "Z-Phisher", percentage: 65, image: meter2, category: "Cybersecurity" },
-    { name: "PhonSint", percentage: 95, image: meter1, category: "Cybersecurity" },
+    { name: "Kali Linux", percentage: 65, image: meter2, category: "Cybersecurity" },
+    { name: "Arch Linux", percentage: 95, image: meter2, category: "Cybersecurity" },
+    { name: "Python", percentage: 67, image: meter6, category: "Cybersecurity" },
+
 
     //Extra Skills
 
@@ -37,12 +38,10 @@ export const Skills = () => {
     { name: "Google FireBase", percentage: 60, image: meter3, category: "Extra Skills" },
     { name: "Material UI", percentage: 67, image: meter3, category: "Extra Skills" },
     { name: "Next UI", percentage: 65, image: meter3, category: "Extra Skills" },
-    { name: "Linux", percentage: 76, image: meter1, category: "Extra Skills" },
+    { name: "Linux", percentage: 76, image: meter2, category: "Extra Skills" },
     { name: "Figma", percentage: 60, image: meter3, category: "Extra Skills" },
-    { name: "Tailwind CSS", percentage: 67, image: meter6, category: "Extra Skills" },
+    { name: "Tailwind CSS", percentage: 70, image: meter7, category: "Extra Skills" },
     { name: "Adobe Photoshop", percentage: 67, image: meter6, category: "Extra Skills" },
-    { name: "Python", percentage: 67, image: meter6, category: "Extra Skills" },
-
 
   ];
 
