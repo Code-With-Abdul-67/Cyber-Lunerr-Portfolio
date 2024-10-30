@@ -24,17 +24,17 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Ensure that everything is encoded properly and no line breaks are added in the link
-    const mailtoLink = `mailto:xlunerr76@gmail.com?subject=${encodeURIComponent('Contact Form Submission')}&body=${encodeURIComponent(
+    const subject = encodeURIComponent('Contact Form Submission');
+    const body = encodeURIComponent(
       `First Name: ${formDetails.firstName}\n` +
       `Last Name: ${formDetails.lastName}\n` +
       `Email: ${formDetails.email}\n` +
       `Phone: ${formDetails.phone}\n` +
       `Message: ${formDetails.message}`
-    )}`;
+    );
 
-    // Open the user's email client with the mailto link
-    window.location.href = mailtoLink;
+    // Open Gmail in a new tab
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=xlunerr76@gmail.com&su=${subject}&body=${body}`, '_blank');
 
     // Clear the form
     setFormDetails(formInitialDetails);

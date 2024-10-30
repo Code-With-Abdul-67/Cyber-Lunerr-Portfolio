@@ -272,21 +272,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: #000000;
 }
 
+/* Navbar Responsive CSS */
 
-<<<<<<< HEAD
-/* Responsive adjustments for NavBar*/
-=======
-/* NavBar Responsive adjustments */
 
->>>>>>> b5555f3b6bca4e10fb8bd3f523e1b4790df7e381
-@media (max-width: 768px) {
+/* Small devices (phones, up to 576px) */
+@media (max-width: 576px) {
   .navbar-brand img {
-    height: 40px;
+    height: 60px; /* Larger size for mobile */
+    width: auto;  /* Maintain aspect ratio */
   }
 
   .nav-link {
     font-size: 0.9rem;
-    margin-right: 10px;
   }
 
   .navbar-text {
@@ -297,26 +294,156 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 8px 16px;
     font-size: 0.9rem;
   }
+
+  .social-icon img {
+    width: 24px;
+  }
 }
 
-@media (max-width: 576px) {
+
+/* Small to medium devices (larger phones and tablets, up to 820px) */
+@media (min-width: 577px) and (max-width: 820px) {
+  .navbar-brand img {
+    height: 55px;
+    width: auto;
+  }
   .nav-link {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    margin-right: 12px;
+  }
+  .navbar-text {
+    margin-top: 12px;
+  }
+  .vvd {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  .social-icon img {
+    width: 26px;
+  }
+}
+/* Larger tablets and smaller laptops (828px to 991px) */
+@media (min-width: 828px) and (max-width: 991px) {
+  .navbar-brand img {
+    height: 70px;
+    width: auto;
+  }
+  .nav-link {
+    font-size: 1.1rem;
+    margin-right: 14px;
+  }
+  .navbar-text {
+    margin-top: 14px;
+  }
+  .vvd {
+    padding: 12px 22px;
+    font-size: 1.1rem;
+  }
+  .social-icon img {
+    width: 28px;
+  }
+}
+
+/* Large devices (laptops, up to 992px) */
+@media (max-width: 992px) {
+  .navbar-brand img {
+    height: 45px;
   }
 
-  .navbar-brand img {
-    height: 35px;
+  .nav-link {
+    font-size: 1rem;
+    margin-right: 12px;
+  }
+
+  .navbar-text {
+    margin-top: 12px;
   }
 
   .vvd {
-    padding: 6px 12px;
-    font-size: 0.8rem;
+    padding: 10px 20px;
+    font-size: 1rem;
   }
 
   .social-icon img {
-    width: 20px;
+    width: 24px;
   }
 }
+
+/* Extra large devices (desktops, up to 1200px) */
+@media (max-width: 1200px) {
+  .navbar-brand img {
+    height: 90px;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+  }
+
+  .navbar-text {
+    margin-top: 14px;
+  }
+
+  .vvd {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+  }
+
+  .social-icon img {
+    width: 26px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-brand img {
+    height: 90px;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+  }
+
+  .navbar-text {
+    margin-top: 14px;
+  }
+
+  .vvd {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+  }
+
+  .social-icon img {
+    width: 26px;
+  }
+}
+
+/* Ultra-wide screens (large desktops, above 1200px) */
+@media (min-width: 1200px) {
+  .navbar-brand img {
+    height: 105px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    margin-right: 18px;
+  }
+
+  .navbar-text {
+    margin-top: 16px;
+  }
+
+  .vvd {
+    padding: 14px 28px;
+    font-size: 1.2rem;
+  }
+
+  .social-icon img {
+    width: 30px;
+  }
+}
+
+
 
 /************ Banner CSS ************/
 
