@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Cyber-Lunerr-Portfolio/static/css/main.6f5c4cf0.css",
+    "main.js": "/Cyber-Lunerr-Portfolio/static/js/main.e45451f2.js",
+    "static/js/787.fb771931.chunk.js": "/Cyber-Lunerr-Portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/color-sharp.png": "/Cyber-Lunerr-Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/Cyber-Lunerr-Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/project-img1.png": "/Cyber-Lunerr-Portfolio/static/media/project-img1.26fb22497289d86a3252.png",
+    "static/media/project-img2.png": "/Cyber-Lunerr-Portfolio/static/media/project-img2.295d417c510928cdbf3e.png",
+    "static/media/banner-bg.png": "/Cyber-Lunerr-Portfolio/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/logo.png": "/Cyber-Lunerr-Portfolio/static/media/logo.9dd6d2d4e662051420f2.png",
+    "static/media/header-img.svg": "/Cyber-Lunerr-Portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/Cyber-Lunerr-Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/Cyber-Lunerr-Portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/Cyber-Lunerr-Portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/Cyber-Lunerr-Portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/Cyber-Lunerr-Portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/nav-icon1.svg": "/Cyber-Lunerr-Portfolio/static/media/nav-icon1.844998b3f285bb7aa19c903c61ddfc1d.svg",
+    "index.html": "/Cyber-Lunerr-Portfolio/index.html",
+    "static/media/nav-icon3.svg": "/Cyber-Lunerr-Portfolio/static/media/nav-icon3.d205c6f8f41922154b9674e53ebdeb3a.svg",
+    "static/media/meter1.svg": "/Cyber-Lunerr-Portfolio/static/media/meter1.4cc963e4a2c51e4a9455213420562248.svg",
+    "static/media/meter3.svg": "/Cyber-Lunerr-Portfolio/static/media/meter3.d8981747c305fff2622e15d652ae77fd.svg",
+    "static/media/meter5.svg": "/Cyber-Lunerr-Portfolio/static/media/meter5.2c0c588dc04fde06916ec83888776ea9.svg",
+    "static/media/meter6.svg": "/Cyber-Lunerr-Portfolio/static/media/meter6.488838c1c3bdcdc7c3fedba935bac4e6.svg",
+    "static/media/meter2.svg": "/Cyber-Lunerr-Portfolio/static/media/meter2.8c3d3215d795d1b80d0aee2b409cfa7d.svg",
+    "static/media/meter4.svg": "/Cyber-Lunerr-Portfolio/static/media/meter4.8c3d3215d795d1b80d0aee2b409cfa7d.svg",
+    "static/media/meter7.svg": "/Cyber-Lunerr-Portfolio/static/media/meter7.e91581c77ed79576094de28c345b171f.svg",
+    "static/media/nav-icon2.svg": "/Cyber-Lunerr-Portfolio/static/media/nav-icon2.1d02fdd08a7c838eefee6eee65871c97.svg",
+    "main.6f5c4cf0.css.map": "/Cyber-Lunerr-Portfolio/static/css/main.6f5c4cf0.css.map",
+    "main.e45451f2.js.map": "/Cyber-Lunerr-Portfolio/static/js/main.e45451f2.js.map",
+    "787.fb771931.chunk.js.map": "/Cyber-Lunerr-Portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f5c4cf0.css",
+    "static/js/main.e45451f2.js"
+  ]
+}
