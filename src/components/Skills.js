@@ -34,11 +34,11 @@ export const Skills = () => {
 
     //Extra Skills
 
-    { name: "GitHub", percentage: 76, image: meter3, category: "Extra Skills" },
+    { name: "GitHub", percentage: 95, image: meter1, category: "Extra Skills" },
     { name: "Google FireBase", percentage: 60, image: meter3, category: "Extra Skills" },
     { name: "Material UI", percentage: 67, image: meter3, category: "Extra Skills" },
     { name: "Next UI", percentage: 65, image: meter3, category: "Extra Skills" },
-    { name: "Linux", percentage: 76, image: meter2, category: "Extra Skills" },
+    { name: "Linux", percentage: 95, image: meter1, category: "Extra Skills" },
     { name: "Figma", percentage: 60, image: meter3, category: "Extra Skills" },
     { name: "Tailwind CSS", percentage: 70, image: meter7, category: "Extra Skills" },
     { name: "Adobe Photoshop", percentage: 67, image: meter6, category: "Extra Skills" },
