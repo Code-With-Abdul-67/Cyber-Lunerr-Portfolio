@@ -17,7 +17,7 @@ export const Skills = () => {
     
     { name: "HTML 5", percentage: 95, image: meter1, category: "Web Development" },
     { name: "CSS 3", percentage: 85, image: meter5, category: "Web Development" },
-    { name: "Bootstrap 5", percentage: 95, image: meter2, category: "Web Development" },
+    { name: "Bootstrap 5", percentage: 95, image: meter1, category: "Web Development" },
     { name: "React JS", percentage: 85, image: meter4, category: "Web Development" },
 
     //Cybersecurity
@@ -28,7 +28,7 @@ export const Skills = () => {
     { name: "Nmap", percentage: 70, image: meter7, category: "Cybersecurity" },
     { name: "MetaSploit", percentage: 67, image: meter6, category: "Cybersecurity" },
     { name: "Kali Linux", percentage: 65, image: meter2, category: "Cybersecurity" },
-    { name: "Arch Linux", percentage: 95, image: meter2, category: "Cybersecurity" },
+    { name: "Arch Linux", percentage: 95, image: meter1, category: "Cybersecurity" },
     { name: "Python", percentage: 67, image: meter6, category: "Cybersecurity" },
 
 
