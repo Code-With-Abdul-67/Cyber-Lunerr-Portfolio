@@ -17,7 +17,7 @@ export const Skills = () => {
     
     { name: "HTML 5", percentage: 95, image: meter1, category: "Web Development" },
     { name: "CSS 3", percentage: 85, image: meter5, category: "Web Development" },
-    { name: "Bootstrap 5", percentage: 80, image: meter5, category: "Web Development" },
+    { name: "Bootstrap 5", percentage: 95, image: meter2, category: "Web Development" },
     { name: "React JS", percentage: 85, image: meter4, category: "Web Development" },
 
     //Cybersecurity

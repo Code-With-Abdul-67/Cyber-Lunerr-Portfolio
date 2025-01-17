@@ -49,9 +49,13 @@ export const NavBar = () => {
 
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.reddit.com/user/One-Alternative-7613/" target="_blank"><img src={navIcon1} alt="reddit-link" /></a>
-                <a href="mailto:codewithabdul67@gmail.com" target="_blank"><img src={navIcon2} alt="mail-link" /></a>
-                <a href="https://github.com/Code-With-Abdul-67" target="_blank"><img src={navIcon3} alt="github-link"/></a>
+
+                <a href="https://www.reddit.com/user/One-Alternative-7613/" target="_blank" rel="noreferrer noopener">
+                <img src={navIcon1} alt="reddit-link" /></a>
+                <a href="mailto:xlunerr76@gmail.com" target="_blank" rel="noreferrer noopener">
+                <img src={navIcon2} alt="mail-link" /></a>
+                <a href="https://github.com/Code-With-Abdul-67" target="_blank" rel="noreferrer noopener">
+                <img src={navIcon3} alt="github-link" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let's Connect</span></button>
