@@ -1,6 +1,6 @@
 // Skills.js
 import React from 'react';
-import SkillBox from './SkillBox'; // Ensure the path is correct
+import SkillBox from './SkillBox'; 
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
@@ -17,8 +17,11 @@ export const Skills = () => {
     
     { name: "HTML 5", percentage: 95, image: meter1, category: "Web Development" },
     { name: "CSS 3", percentage: 85, image: meter5, category: "Web Development" },
+    { name: "JavaScript", percentage: 70, image: meter7, category: "Web Development" },
     { name: "Bootstrap 5", percentage: 95, image: meter1, category: "Web Development" },
     { name: "React JS", percentage: 85, image: meter4, category: "Web Development" },
+    { name: "PHP", percentage: 67, image: meter6, category: "Web Development"},
+    { name: "MySQL", percentage: 70, image: meter7, category: "Web Development"},
 
     //Cybersecurity
 
