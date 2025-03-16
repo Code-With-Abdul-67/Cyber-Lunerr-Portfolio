@@ -33,7 +33,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""} sticky="top">
         <Container>
-          <Navbar.Brand href="https://Code-With-Abdul-67.github.io/Cyber-Lunerr-Portfolio">
+          <Navbar.Brand href="https://code-with-abdul-2jsh.vercel.app">
             <img src={logo} alt="Logo" className="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
