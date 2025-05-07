@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png"
+import projImg5 from "../assets/img/project-img5.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -34,6 +35,12 @@ export const Projects = () => {
       description: "A Beauty and Skin Care Website which helps you out to plan your Skin and Beauty Care routine",
       imgUrl: projImg4,
       githubUrl: "https://skin-essence-beauty-care.vercel.app/"
+    },
+    {
+      title: "Net Switch",
+      description: "A powerful CLI tool designed to help you easily toggle between monitor mode and managed mode for your wireless network interfaces",
+      imgUrl: projImg5,
+      githubUrl: "https://github.com/Code-With-Abdul-67/Net-Switch"
     },
   ];
 
