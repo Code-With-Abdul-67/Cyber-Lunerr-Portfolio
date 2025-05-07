@@ -22,6 +22,7 @@ export const Skills = () => {
     { name: "React JS", percentage: 85, image: meter4, category: "Web Development" },
     { name: "PHP", percentage: 67, image: meter6, category: "Web Development"},
     { name: "MySQL", percentage: 70, image: meter7, category: "Web Development"},
+    { name: "Laravel", percentage: 67, image: meter6, category: "Web Development"},
 
     //Cybersecurity
 
